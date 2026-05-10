@@ -3,7 +3,7 @@
 _Most used language stats above only include code in my **public repos**_
 
 ### Building, breaking, and shipping things.
-Welcome to my GitHub corner. This is where I house my side projects, experiment with new tech, and maintain a few 
+Welcome to my GitHub space. This is where I house my side projects, experiment with new tech, and maintain a few 
 open-source tools I use in my day-to-day workflow.
 
 ---
