@@ -25,7 +25,7 @@ jobs:
           plugin_lines: yes
           config_timezone: Europe/London
           filename: profile/github-metrics.svg
-          repositories_batch: 1
+          repositories_batch: 100
           repositories_affiliations: owner
           retries: 3
           retries_delay: 60
