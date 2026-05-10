@@ -12,6 +12,8 @@ jobs:
         run: |
           git config --global url."https://${{ secrets.METRICS_TOKEN }}@github.com/".insteadOf "https://github.com/"
       - uses: lowlighter/metrics@v3.34
+        env:
+          GITHUB_TOKEN: ${{ secrets.METRICS_TOKEN }}
         with:
           plugin_languages: yes
           plugin_languages_indepth: yes
