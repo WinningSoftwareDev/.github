@@ -40,7 +40,7 @@
             </section>
             <section class="column">
                 <h3 class="field">Most used languages</h3>
-                <small>estimation from 1.27mb of code in 869 edited files across 231 commits</small>
+                <small>estimation from 1.27mb of code in 870 edited files across 232 commits</small>
                 <svg class="bar" xmlns="http://www.w3.org/2000/svg" width="460" height="8">
                     <mask id="languages-bar">
                         <rect x="0" y="0" width="460" height="8" fill="white" rx="5"/>
@@ -64,6 +64,7 @@
                                 PHP
                             </div>
                             <small>
+                                <div>4.45k lines</div>
                                 <div>79.99%</div>
                             </small>
                         </div>
@@ -75,6 +76,7 @@
                                 TypeScript
                             </div>
                             <small>
+                                <div>245 lines</div>
                                 <div>4.29%</div>
                             </small>
                         </div>
@@ -86,6 +88,7 @@
                                 JavaScript
                             </div>
                             <small>
+                                <div>83 lines</div>
                                 <div>0.88%</div>
                             </small>
                         </div>
@@ -97,6 +100,7 @@
                                 Shell
                             </div>
                             <small>
+                                <div>12 lines</div>
                                 <div>0.24%</div>
                             </small>
                         </div>
@@ -110,6 +114,7 @@
                                 Latte
                             </div>
                             <small>
+                                <div>560 lines</div>
                                 <div>12.24%</div>
                             </small>
                         </div>
@@ -121,6 +126,7 @@
                                 Dockerfile
                             </div>
                             <small>
+                                <div>85 lines</div>
                                 <div>1.66%</div>
                             </small>
                         </div>
@@ -132,6 +138,7 @@
                                 SCSS
                             </div>
                             <small>
+                                <div>50 lines</div>
                                 <div>0.7%</div>
                             </small>
                         </div>
