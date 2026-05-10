@@ -1,6 +1,6 @@
 # 🏆 Winning Software
 
-![Stats](./profile/stats.svg)
+![Stats](./profile/github-metrics.svg)
 
 ### Building, breaking, and shipping things.
 Welcome to my GitHub corner. This is where I house my side projects, experiment with new tech, and maintain a few 
