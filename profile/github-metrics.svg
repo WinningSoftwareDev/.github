@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="480" height="430" class="">
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="537" class="">
   
 
   <defs><style>@font-face {
@@ -37,7 +37,7 @@
 These generated metrics comes with ABSOLUTELY NO
 WARRANTY, to the extent permitted by applicable law.
 
-Last generated: 10 May 2026, 09:07:45
+Last generated: 10 May 2026, 09:16:36
 </div><div class="stdin"><span class="ps1-path">winningsoftwaredev@metrics</span>:<span class="ps1-location">~</span># whoami</div><div class="stdout"><b>Winning Software</b> registered=6m, uid=0, gid=2707
   organization with <b>1</b> member
 </div>
@@ -47,10 +47,16 @@ Last generated: 10 May 2026, 09:07:45
 -r--  <b>    0</b>  watchers
 dr-x  <b>    0</b>  packages
 </div>
-<div class="stdin"><span class="ps1-path">winningsoftwaredev@metrics</span>:<span class="ps1-location">~</span># locale</div><div class="stdout"></div>
+<div class="stdin"><span class="ps1-path">winningsoftwaredev@metrics</span>:<span class="ps1-location">~</span># locale</div><div class="stdout"><b>PHP         </b> [##############      ] 66.07%
+<b>LATTE       </b> [#####               ] 22.63%
+<b>TYPESCRIPT  </b> [##                  ] 7.94 %
+<b>JAVASCRIPT  </b> [#                   ] 1.62 %
+<b>SCSS        </b> [#                   ] 1.30 %
+<b>SHELL       </b> [#                   ] 0.44 %
+</div>
 
 
-<footer>Connection reset by 143.22.87.98</footer></pre>
+<footer>Connection reset by 164.60.112.4</footer></pre>
 
     </div>
     <div xmlns="http://www.w3.org/1999/xhtml" id="metrics-end"></div>
