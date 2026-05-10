@@ -10,10 +10,12 @@ jobs:
     steps:
       - uses: lowlighter/metrics@latest
         with:
+          plugin_languages: yes
+          plugin_languages_indepth: yes
           token: ${{ secrets.METRICS_TOKEN }}
           user: WinningSoftwareDev
           template: classic
-          base: header, repositories, languages
+          base: header, repositories
           config_timezone: Europe/London
           filename: profile/github-metrics.svg
           repositories_batch: 5
