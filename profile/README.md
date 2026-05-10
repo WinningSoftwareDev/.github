@@ -1,4 +1,6 @@
-<img src="./github-metrics.svg" width="100%" />
+<img src="./github-metrics.svg" width="100%" alt="Organisation Stats" />
+
+_Most used language stats above only include code in my **public repos**_
 
 ### Building, breaking, and shipping things.
 Welcome to my GitHub corner. This is where I house my side projects, experiment with new tech, and maintain a few 
@@ -7,8 +9,7 @@ open-source tools I use in my day-to-day workflow.
 ---
 
 ## 🚀 The Setup
-By day, I'm a full-time dev. By night, this is my laboratory for "Winning Software"—the space where I build the projects 
-I'm passionate about.
+This is my laboratory for "Winning Software" - the space where I build the projects I'm passionate about.
 
 * **Focus:** Fast UI, clean backend logic, and tools that solve my own problems first.
 * **Stack:** PHP, Symfony, Vue.js, Latte, Tailwind | C# + Blazor
