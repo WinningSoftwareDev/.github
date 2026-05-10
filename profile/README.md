@@ -1,5 +1,7 @@
 # 🏆 Winning Software
 
+![Stats](./profile/stats.svg)
+
 ### Building, breaking, and shipping things.
 Welcome to my GitHub corner. This is where I house my side projects, experiment with new tech, and maintain a few 
 open-source tools I use in my day-to-day workflow.
