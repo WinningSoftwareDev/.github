@@ -8,12 +8,7 @@ jobs:
     permissions:
       contents: write
     steps:
-      - name: Configure Git to use token
-        run: |
-          git config --global url."https://${{ secrets.METRICS_TOKEN }}@github.com/".insteadOf "https://github.com/"
-      - uses: lowlighter/metrics@v3.34
-        env:
-          GITHUB_TOKEN: ${{ secrets.METRICS_TOKEN }}
+      - uses: lowlighter/metrics@latest
         with:
           plugin_languages: yes
           plugin_languages_indepth: yes
@@ -34,4 +29,3 @@ jobs:
           repositories_affiliations: owner, collaborator, organization_member
           retries: 3
           retries_delay: 60
-          debug: yes
