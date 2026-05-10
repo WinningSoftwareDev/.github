@@ -13,7 +13,7 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN }}
           user: WinningSoftwareDev
           template: classic
-          base: header, repositories
+          base: header, repositories, languages
           config_timezone: Europe/London
           filename: profile/github-metrics.svg
           repositories_batch: 5
