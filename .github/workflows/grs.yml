@@ -18,3 +18,5 @@ jobs:
           filename: profile/github-metrics.svg
           repositories_batch: 5
           repositories_affiliations: owner
+          retries: 3
+          retries_delay: 60
