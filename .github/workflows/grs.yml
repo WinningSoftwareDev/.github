@@ -1,4 +1,4 @@
-name: Winning Software Metrics
+name: Organisation Metrics
 on:
   schedule: [{cron: "0 3 * * *"}]
   workflow_dispatch:
@@ -16,3 +16,5 @@ jobs:
           base: header, repositories
           config_timezone: Europe/London
           filename: profile/github-metrics.svg
+          repositories_batch: 5
+          repositories_affiliations: owner
