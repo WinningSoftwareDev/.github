@@ -16,10 +16,12 @@ jobs:
           plugin_languages_details: percentage, lines
           plugin_languages_limit: 8
           plugin_languages_analysis_timeout: 60
+          plugin_languages_analysis_timeout_repositories: 0
           commits_authoring: Daniel Winning, DanielWinning, daniel@winningsoftware.co.uk
           token: ${{ secrets.METRICS_TOKEN }}
           user: WinningSoftwareDev
           base: header
+          base_indepth: yes
           plugin_lines: yes
           config_timezone: Europe/London
           filename: profile/github-metrics.svg
