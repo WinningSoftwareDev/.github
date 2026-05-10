@@ -20,7 +20,7 @@ jobs:
           commits_authoring: Daniel Winning, DanielWinning, daniel@winningsoftware.co.uk
           token: ${{ secrets.METRICS_TOKEN }}
           user: WinningSoftwareDev
-          base: header, repositories
+          base: header
           base_indepth: yes
           plugin_lines: yes
           config_timezone: Europe/London
