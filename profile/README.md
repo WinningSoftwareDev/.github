@@ -24,6 +24,8 @@ myself that I’ve shared with the world:
 * [Loom Spinner](https://github.com/WinningSoftwareDev/loom-spinner) - A Docker based development environment manager for 
   Linux. Spins up pre-configured Docker environments on a project-by-project basis, complete with: PHP, MySQL/SQLite, 
   Nginx, Xdebug, RabbitMQ, clean URL's + HTTPS. My daily dev environment for PHP.
+* [Symfony Base](https://github.com/WinningSoftwareDev/symfony-base) - Generically named Symfony starter template with a 
+  load of my favourite tools pre-configured: auth, Vue.js, Tailwind + Latte templating all out of the box.
 
 ---
 
