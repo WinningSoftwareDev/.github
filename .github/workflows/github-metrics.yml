@@ -12,10 +12,10 @@ jobs:
         with:
           plugin_languages: yes
           plugin_languages_indepth: yes
+          commits_authoring: firstname lastname, username, username@users.noreply.github.com
           token: ${{ secrets.METRICS_TOKEN }}
           user: WinningSoftwareDev
-          template: classic
-          base: header, repositories
+          template: terminal
           config_timezone: Europe/London
           filename: profile/github-metrics.svg
           repositories_batch: 5
