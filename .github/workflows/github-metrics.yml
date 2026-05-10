@@ -12,7 +12,9 @@ jobs:
         with:
           plugin_languages: yes
           plugin_languages_indepth: yes
-          commits_authoring: firstname lastname, username, username@users.noreply.github.com
+          plugin_languages_sections: most-used
+          plugin_languages_details: percentage
+          commits_authoring: Daniel Winning, DanielWinning, daniel@winningsoftware.co.uk
           token: ${{ secrets.METRICS_TOKEN }}
           user: WinningSoftwareDev
           template: terminal
