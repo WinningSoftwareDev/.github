@@ -36,9 +36,3 @@ I like a streamlined setup that stays out of my way so I can actually write code
 * **Alerts:** All my build statuses and project pings go straight to my **Discord** channel.
 
 ---
-
-## 📫 Get in touch
-If you're using one of my packages and have a question, feel free to open an issue or reach out.
-
----
-*Success is just a few thousand commits away.*
