@@ -1,28 +1,18 @@
-name: Update README cards
-
+name: Winning Software Metrics
 on:
-  schedule:
-    - cron: "0 3 * * *"
+  schedule: [{cron: "0 3 * * *"}]
   workflow_dispatch:
-
 jobs:
-  build:
+  github-metrics:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
-      - uses: actions/checkout@v4
-
-      - name: Generate stats card
-        uses: readme-tools/github-readme-stats-action@v1
+      - uses: lowlighter/metrics@latest
         with:
-          card: stats
-          options: username=${{ github.repository_owner }}&show_icons=true&count_private=true&theme=discord_old_blurple&is_org=true
-          path: profile/stats.svg
           token: ${{ secrets.METRICS_TOKEN }}
-
-      - name: Commit cards
-        run: |
-          git config user.name "github-actions"
-          git config user.email "github-actions@users.noreply.github.com"
-          git add profile/*.svg
-          git commit -m "Update README cards" || exit 0
-          git push
+          user: WinningSoftwareDev
+          template: classic
+          base: header, activity, community, repositories, metadata
+          config_timezone: Europe/London
+          filename: profile/github-metrics.svg
