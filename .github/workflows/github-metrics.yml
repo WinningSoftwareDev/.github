@@ -29,3 +29,4 @@ jobs:
           repositories_affiliations: owner, collaborator, organization_member
           retries: 3
           retries_delay: 60
+          debug: yes
