@@ -1,18 +1,12 @@
 <img src="./github-metrics.svg" width="100%" alt="Organisation Stats" />
 
-_Most used language stats above only include code in my **public repos**_
+<div style="text-align:center; width: 100%; font-style: italic">
+Most used language stats above only include code in my <span style="font-weight:bold">public repos</span>
+</div>
 
 ### Building, breaking, and shipping things.
 Welcome to my GitHub space. This is where I house my side projects, experiment with new tech, and maintain a few 
 open-source tools I use in my day-to-day workflow.
-
----
-
-## 🚀 The Setup
-This is my laboratory for "Winning Software" - the space where I build the projects I'm passionate about.
-
-* **Focus:** Fast UI, clean backend logic, and tools that solve my own problems first.
-* **Stack:** PHP, Symfony, Vue.js, Latte, Tailwind | C# + Blazor
 
 ---
 
@@ -27,13 +21,5 @@ myself that I’ve shared with the world:
   Nginx, Xdebug, RabbitMQ, clean URL's + HTTPS. My daily dev environment for PHP.
 * [Symfony Base](https://github.com/WinningSoftwareDev/symfony-base) - Generically named Symfony starter template with a 
   load of my favourite tools pre-configured: auth, Vue.js, Tailwind + Latte templating all out of the box.
-
----
-
-## 🛠 My Workflow
-I like a streamlined setup that stays out of my way so I can actually write code:
-* **Tracking:** I use **Shortcut** for managing my tasks and features.
-* **Code:** Hosted here on **GitHub**.
-* **Alerts:** All my build statuses and project pings go straight to my **Discord** channel.
 
 ---
