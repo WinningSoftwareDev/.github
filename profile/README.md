@@ -1,8 +1,6 @@
 <img src="./github-metrics.svg" width="100%" alt="Organisation Stats" />
 
-<div style="text-align:center; width: 100%; font-style: italic">
-Most used language stats above only include code in my <span style="font-weight:bold">public repos</span>
-</div>
+_Most used language stats above only include code in my **public repos**_
 
 ### Building, breaking, and shipping things.
 Welcome to my GitHub space. This is where I house my side projects, experiment with new tech, and maintain a few 
